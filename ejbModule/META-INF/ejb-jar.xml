@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:ejb="http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_1.xsd" version="3.1">
+  <display-name>phoenix-trade-alert</display-name>
+  <enterprise-beans>
+    <message-driven>
+      <ejb-name>StockMonitorMessageBean</ejb-name>
+      <ejb-class>bean.StockMonitorMessageBean</ejb-class>
+      <transaction-type>Container</transaction-type>
+    </message-driven>
+  </enterprise-beans>
+ </ejb-jar>
